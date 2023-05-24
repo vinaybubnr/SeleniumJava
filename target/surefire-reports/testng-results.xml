@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-24T13:42:55 IST" name="Suite" finished-at="2023-05-24T13:43:09 IST" duration-ms="13851">
+    <groups>
+      <group name="Purchase">
+        <method signature="SATest2.submitOrder(java.util.HashMap)[pri:0, instance:Code.SATest2@6973b51b]" name="submitOrder" class="Code.SATest2"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-05-24T13:42:55 IST" name="ErrorValidation" finished-at="2023-05-24T13:42:55 IST" duration-ms="9">
+    </test> <!-- ErrorValidation -->
+    <test started-at="2023-05-24T13:42:55 IST" name="SubmitOrder" finished-at="2023-05-24T13:43:09 IST" duration-ms="13851">
+      <class name="Code.SATest2">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Code.SATest2@6973b51b]" started-at="2023-05-24T13:42:56 IST" name="launchApplication" finished-at="2023-05-24T13:42:58 IST" duration-ms="2600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Code.SATest2@6973b51b]" started-at="2023-05-24T13:42:58 IST" name="submitOrder" data-provider="getData" finished-at="2023-05-24T13:43:02 IST" duration-ms="3960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pname=ADIDAS ORIGINAL, pass=Vinay@490, email=vinaybubgsit@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Code.SATest2@6973b51b]" started-at="2023-05-24T13:43:02 IST" name="tearDown" finished-at="2023-05-24T13:43:03 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Code.SATest2@6973b51b]" started-at="2023-05-24T13:43:03 IST" name="launchApplication" finished-at="2023-05-24T13:43:05 IST" duration-ms="2691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Code.SATest2@6973b51b]" started-at="2023-05-24T13:43:05 IST" name="submitOrder" data-provider="getData" finished-at="2023-05-24T13:43:09 IST" duration-ms="3701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pname=ZARA COAT 3, pass=Vinay@490, email=vinaykumarbu@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Code.SATest2@6973b51b]" started-at="2023-05-24T13:43:09 IST" name="tearDown" finished-at="2023-05-24T13:43:09 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Code.SATest2 -->
+    </test> <!-- SubmitOrder -->
+  </suite> <!-- Suite -->
+</testng-results>
